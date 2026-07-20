@@ -5,15 +5,13 @@ from core import Plugin, command
 
 
 class TestPlugin(Plugin):
-    name = "TestPlugin"
-    author = "Test Author"
-    version = "1.0.0"
-    description = "Test plugin for download testing"
-    category = "Test"
-    
+    """Всі метадані з manifest.json"""
+
     @command("test_download")
     async def test_cmd(self, event):
-        await event.reply("✅ Плагін успішно завантажено з GitHub!")
-    
+        prefix = self.get_config("prefix", "🔊")
+        await event.reply(f"{prefix} ✅ Плагін успішно завантажено з GitHub!")
+
     async def main(self):
-        self.logger.info("✅ Test plugin loaded from GitHub!")
+        self.logger.info(f"✅ {self.name} v{self.version} by {self.author} loaded!")
+        self.logger.info(f"   ID: {self.plugin_id}")

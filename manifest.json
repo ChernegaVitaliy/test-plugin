@@ -1,0 +1,8 @@
+{
+    "id": "test_plugin.chernegavitaliy",
+    "name": "TestPlugin",
+    "author": "ChernegaVitaliy",
+    "version": "1.0.0",
+    "description": "Test plugin for download testing",
+    "category": "Utilities"
+}
