@@ -1,8 +1,8 @@
 {
-    "id": "testplugin.chernegavitaliy",
-    "name": "TestPlugin",
+    "id": "hello_world.chernegavitaliy",
+    "name": "HelloWorld",
     "author": "ChernegaVitaliy",
     "version": "1.0.0",
-    "description": "Test plugin for download testing",
+    "description": "Test plugin for GitHub download testing",
     "category": "Utilities"
 }

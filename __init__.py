@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Echo Plugin
+HelloWorld Plugin
 """
 
-from .plugin import EchoPlugin
+from .plugin import HelloWorldPlugin

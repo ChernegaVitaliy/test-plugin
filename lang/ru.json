@@ -1,39 +1,11 @@
 {
-    "plugin_loaded": "Плагин Echo v{version} загружен!",
-    "plugin_unloaded": "Плагин Echo выгружен!",
-    "config_changed": "Конфигурация изменена: {key} = {value} (было {old})",
-    "config_info": "Конфиг: prefix = {prefix}",
-    "main_started": "Echo plugin main() запущен",
-    "status_loop_log": "Echo статус: {time}",
-    "background_log": "Echo фон: {count} циклов",
-    
-    "echo_usage": "❌ /echo <текст> - повторяет ваш текст",
-    "echo_response": "Echo: {text}",
-    
-    "greeting_1": "Привет! 👋",
-    "greeting_2": "Здравствуйте! 😊",
-    "greeting_3": "Здорово! 🤝",
-    "greeting_4": "Добрый день! ☀️",
-    "greeting_5": "Добро пожаловать! 🌟",
-    "hello_response": "{greeting} {name}!",
-    "unknown_user": "друг",
-    
-    "time_response": "📅 **Дата:** {date}\n🕐 **Время:** {time}\n📌 **День:** {week_day}",
-    "time_format": "{:.3f}с",
-    
-    "config_show": "📋 **Конфигурация Echo:**",
-    "config_usage": "❌ /config_echo {key} <value>\nДоступные ключи: prefix, uppercase, reverse",
-    "config_changed_reply": "✅ Изменено: {key} = {new} (было {old})",
-    "config_invalid_key": "❌ Ключ {key} не найден",
-    
-    "watcher_response": "👀 Ты написал: {text}",
-    "bot_mentioned": "🤖 Я тебя слышу! Бот онлайн.",
-    
-    "day_monday": "Понедельник",
-    "day_tuesday": "Вторник",
-    "day_wednesday": "Среда",
-    "day_thursday": "Четверг",
-    "day_friday": "Пятница",
-    "day_saturday": "Суббота",
-    "day_sunday": "Воскресенье"
+    "greeting": "{emoji} {greeting}, мир!",
+    "time": "Время: {time}",
+    "config_title": "📋 **Конфигурация HelloWorld:**",
+    "set_usage": "❌ Использование: /hw_set <ключ> <значение>",
+    "set_success": "✅ Изменено: {key} = {value}",
+    "set_error": "❌ Ключ {key} не найден",
+    "watcher_response": "👀 Привет, мир!",
+    "loop_log": "HelloWorld статус: {time}",
+    "loaded": "✅ {name} v{version} загружен!"
 }
