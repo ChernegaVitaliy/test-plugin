@@ -1,3 +1,39 @@
 {
-    "test_download": "✅ Plugin successfully downloaded from GitHub!"
+    "plugin_loaded": "Echo plugin v{version} loaded!",
+    "plugin_unloaded": "Echo plugin unloaded!",
+    "config_changed": "Config changed: {key} = {value} (was {old})",
+    "config_info": "Config: prefix = {prefix}",
+    "main_started": "Echo plugin main() started",
+    "status_loop_log": "Echo status: {time}",
+    "background_log": "Echo background: {count} cycles",
+    
+    "echo_usage": "❌ /echo <text> - repeats your text",
+    "echo_response": "Echo: {text}",
+    
+    "greeting_1": "Hello! 👋",
+    "greeting_2": "Hi there! 😊",
+    "greeting_3": "Hey! 🤝",
+    "greeting_4": "Good day! ☀️",
+    "greeting_5": "Welcome! 🌟",
+    "hello_response": "{greeting} {name}!",
+    "unknown_user": "friend",
+    
+    "time_response": "📅 **Date:** {date}\n🕐 **Time:** {time}\n📌 **Day:** {week_day}",
+    "time_format": "{:.3f}s",
+    
+    "config_show": "📋 **Echo Config:**",
+    "config_usage": "❌ /config_echo {key} <value>\nAvailable keys: prefix, uppercase, reverse",
+    "config_changed_reply": "✅ Changed: {key} = {new} (was {old})",
+    "config_invalid_key": "❌ Key {key} not found",
+    
+    "watcher_response": "👀 You wrote: {text}",
+    "bot_mentioned": "🤖 I hear you! Bot online.",
+    
+    "day_monday": "Monday",
+    "day_tuesday": "Tuesday",
+    "day_wednesday": "Wednesday",
+    "day_thursday": "Thursday",
+    "day_friday": "Friday",
+    "day_saturday": "Saturday",
+    "day_sunday": "Sunday"
 }
